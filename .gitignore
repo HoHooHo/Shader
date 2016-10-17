@@ -7,6 +7,7 @@
 .metadata
 bin/
 cocos2d/
+Debug.win32/
 tmp/
 *.tmp
 *.bak
