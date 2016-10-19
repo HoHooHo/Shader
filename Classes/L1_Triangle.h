@@ -5,6 +5,10 @@ USING_NS_CC;
 
 class L1_Triangle : public cocos2d::Layer
 {
+private:
+	float _vertercies[6];
+	float _color[12];
+
 public:
     virtual bool init();
 

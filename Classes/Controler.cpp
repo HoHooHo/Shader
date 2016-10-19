@@ -3,6 +3,7 @@
 
 #include "HelloWorldScene.h"
 #include "L1_Triangle.h"
+#include "L2_Triangle.h"
 
 USING_NS_CC;
 
@@ -14,6 +15,7 @@ typedef struct _Controller{
 controler g_aTestNames[] = {
 	{"HelloWorld", [](){auto layer = HelloWorld::create(); layer->retain(); return layer;}},
 	{"L1_Triangle", [](){auto layer = L1_Triangle::create(); layer->retain(); return layer;}},
+	{"L2_Triangle", [](){auto layer = L2_Triangle::create(); layer->retain(); return layer;}},
 };
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
 
