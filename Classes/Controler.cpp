@@ -5,6 +5,7 @@
 #include "L1_Triangle.h"
 #include "L2_Triangle.h"
 #include "L3_Rectangle.h"
+#include "L4_Cube.h"
 
 USING_NS_CC;
 
@@ -18,6 +19,7 @@ controler g_aTestNames[] = {
 	{"L1_Triangle", [](){auto layer = L1_Triangle::create(); layer->retain(); return layer;}},
 	{"L2_Triangle", [](){auto layer = L2_Triangle::create(); layer->retain(); return layer;}},
 	{"L3_Rectangle", [](){auto layer = L3_Rectangle::create(); layer->retain(); return layer;}},
+	{"L4_Cube", [](){auto layer = L4_Cube::create(); layer->retain(); return layer;}},
 };
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
 

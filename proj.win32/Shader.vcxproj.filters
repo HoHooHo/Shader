@@ -33,6 +33,9 @@
     <ClCompile Include="..\Classes\L3_Rectangle.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\L4_Cube.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -54,6 +57,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\L3_Rectangle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\L4_Cube.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
