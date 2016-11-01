@@ -7,13 +7,16 @@
 #include "L3_Rectangle.h"
 #include "L4_Cube.h"
 #include "L5_Cube_Textrue.h"
+#include "L6_ShaderSprite.h"
+#include "L7_ShaderSprite.h"
+#include "L8_ShaderSprite.h"
 
 USING_NS_CC;
 
 
 typedef struct _Controller{
 	const char *test_name;
-	std::function<Layer*()> callback;
+	std::function<Node*()> callback;
 } controler;
 controler g_aTestNames[] = {
 	{"HelloWorld", [](){auto layer = HelloWorld::create(); layer->retain(); return layer;}},
@@ -22,7 +25,11 @@ controler g_aTestNames[] = {
 	{"L3_Rectangle", [](){auto layer = L3_Rectangle::create(); layer->retain(); return layer;}},
 	{"L4_Cube", [](){auto layer = L4_Cube::create(); layer->retain(); return layer;}},
 	{"L5_Cube_Textrue", [](){auto layer = L5_Cube_Textrue::create(); layer->retain(); return layer;}},
+	{"L6_ShaderSprite", [](){auto layer = L6_ShaderSprite::create("L6_Water/fight_sea.jpg"); layer->setPosition(480, 320); layer->retain(); return layer;}},
+	{"L7_ShaderSprite", [](){auto layer = L7_ShaderSprite::create("HelloWorld.png"); layer->setPosition(480, 320); layer->retain(); return layer;}},
+	{"L8_ShaderSprite", [](){auto layer = L8_ShaderSprite::create("HelloWorld.png"); layer->setPosition(480, 320); layer->retain(); return layer;}},
 };
+
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
 
 Scene* Controler::createScene()

@@ -39,6 +39,15 @@
     <ClCompile Include="..\Classes\L5_Cube_Textrue.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\L6_ShaderSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\L8_ShaderSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\L7_ShaderSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -66,6 +75,15 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\L5_Cube_Textrue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\L6_ShaderSprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\L8_ShaderSprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\L7_ShaderSprite.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

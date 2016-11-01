@@ -145,6 +145,9 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\L3_Rectangle.cpp" />
     <ClCompile Include="..\Classes\L4_Cube.cpp" />
     <ClCompile Include="..\Classes\L5_Cube_Textrue.cpp" />
+    <ClCompile Include="..\Classes\L6_ShaderSprite.cpp" />
+    <ClCompile Include="..\Classes\L7_ShaderSprite.cpp" />
+    <ClCompile Include="..\Classes\L8_ShaderSprite.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +159,9 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\L3_Rectangle.h" />
     <ClInclude Include="..\Classes\L4_Cube.h" />
     <ClInclude Include="..\Classes\L5_Cube_Textrue.h" />
+    <ClInclude Include="..\Classes\L6_ShaderSprite.h" />
+    <ClInclude Include="..\Classes\L7_ShaderSprite.h" />
+    <ClInclude Include="..\Classes\L8_ShaderSprite.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
